@@ -114,3 +114,11 @@ canvas {
     cursor: pointer;
 }
 
+/* Imagen Core Dumped */
+.terminal-body img {
+    display: block; /* Asegura que se comporta como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 90%; /* Limita el ancho máximo de la imagen al 90% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen al reducir el ancho */
+}
+
